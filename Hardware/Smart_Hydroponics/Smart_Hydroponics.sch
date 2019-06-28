@@ -1287,15 +1287,15 @@ Text Label 7150 3000 0    50   ~ 0
 1WIRE_DAT
 Text Label 7150 3100 0    50   ~ 0
 LED_SIG
-Text Label 6650 3250 0    50   ~ 0
+Text Label 6300 3250 0    50   ~ 0
 LED_STRIP_W
-Text Label 6650 3350 0    50   ~ 0
+Text Label 6300 3350 0    50   ~ 0
 LED_STRIP_R
-Text Label 6650 3450 0    50   ~ 0
+Text Label 6300 3450 0    50   ~ 0
 LED_STRIP_B
-Text Label 6650 3650 0    50   ~ 0
+Text Label 6300 3650 0    50   ~ 0
 PUMP
-Text Label 6650 3800 0    50   ~ 0
+Text Label 6300 3800 0    50   ~ 0
 FAN
 $Comp
 L MRS_Sensors:SCD30 U?
@@ -1476,4 +1476,65 @@ F 3 "" H 5700 6250 50  0001 C CNN
 	1    5700 6250
 	1    0    0    -1  
 $EndComp
+$Comp
+L MRS_Connectors:Header_1x2 J?
+U 1 1 5D2998AD
+P 4550 2500
+F 0 "J?" H 4550 2650 50  0000 C CNN
+F 1 "Header_1x2" H 4850 2500 50  0000 C CNN
+F 2 "MRS_Connectors:Header_1x02_P2.54mm" H 4550 2250 50  0001 C CNN
+F 3 "" H 4100 2200 50  0001 C CNN
+	1    4550 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRS_Connectors:Header_1x2 J?
+U 1 1 5D299AFA
+P 4550 2850
+F 0 "J?" H 4550 3000 50  0000 C CNN
+F 1 "Header_1x2" H 4850 2850 50  0000 C CNN
+F 2 "MRS_Connectors:Header_1x02_P2.54mm" H 4550 2600 50  0001 C CNN
+F 3 "" H 4100 2550 50  0001 C CNN
+	1    4550 2850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRS_Connectors:Header_1x2 J?
+U 1 1 5D299B62
+P 4550 3200
+F 0 "J?" H 4550 3350 50  0000 C CNN
+F 1 "Header_1x2" H 4850 3200 50  0000 C CNN
+F 2 "MRS_Connectors:Header_1x02_P2.54mm" H 4550 2950 50  0001 C CNN
+F 3 "" H 4100 2900 50  0001 C CNN
+	1    4550 3200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRS_Connectors:Header_1x2 J?
+U 1 1 5D299BD0
+P 4550 3550
+F 0 "J?" H 4550 3700 50  0000 C CNN
+F 1 "Header_1x2" H 4850 3550 50  0000 C CNN
+F 2 "MRS_Connectors:Header_1x02_P2.54mm" H 4550 3300 50  0001 C CNN
+F 3 "" H 4100 3250 50  0001 C CNN
+	1    4550 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRS_Connectors:Header_1x2 J?
+U 1 1 5D299C40
+P 4550 3900
+F 0 "J?" H 4550 4050 50  0000 C CNN
+F 1 "Header_1x2" H 4850 3900 50  0000 C CNN
+F 2 "MRS_Connectors:Header_1x02_P2.54mm" H 4550 3650 50  0001 C CNN
+F 3 "" H 4100 3600 50  0001 C CNN
+	1    4550 3900
+	-1   0    0    -1  
+$EndComp
+Text Label 4950 2450 0    50   ~ 0
+LED_STRIP_W
+Text Label 4950 2800 0    50   ~ 0
+LED_STRIP_R
+Text Label 4950 3150 0    50   ~ 0
+LED_STRIP_B
 $EndSCHEMATC
