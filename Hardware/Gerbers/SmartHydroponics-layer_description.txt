@@ -1,0 +1,11 @@
+SmartHydroponics-B.Cu.gbr        	Bottom Copper Layer           
+SmartHydroponics-B.Mask.gbr		Bottom Solder Mask	
+SmartHydroponics-B.Paste.gbr		Bottom Solder Paste
+SmartHydroponics-B.SilkS.gbr		Bottom Silk Screen
+SmartHydroponics-Edge.Cuts.gbr		Bottom Outline and Milling
+SmartHydroponics-F.Cu.gbr		Top Copper Layer
+SmartHydroponics-F.Mask.gbr		Top Solder Mask
+SmartHydroponics-F.Paste.gbr		Top Solder Paste
+SmartHydroponics-F.SilkS.gbr		Top Silk Screen
+SmartHydroponics-NPTH.drl		Non-Plated Holes
+SmartHydroponics-PTH.drl		Plated Holes
